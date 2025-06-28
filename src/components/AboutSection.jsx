@@ -3,7 +3,7 @@ import { Briefcase, Code, User } from "lucide-react";
 export const AboutSection = () => {
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/assets/Mohsin Resume.pdf';
+    link.href = '/Mohsin Resume.pdf';
     link.download = 'Mohsin_Resume.pdf';
     link.target = '_blank';
     document.body.appendChild(link);
