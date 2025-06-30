@@ -24,7 +24,7 @@ export const ContactSection = () => {
                   <h4 className="font-medium text-lg mb-1">Email</h4>
                   <a
                     href="mailto:mohsinjawad592@gmail.com"
-                    className="text-muted-foreground hover:text-primary transition-colors break-all sm:break-normal"
+                    className="text-muted-foreground hover:text-primary transition-colors text-sm sm:text-base"
                   >
                     mohsinjawad592@gmail.com
                   </a>
