@@ -1,5 +1,4 @@
 import { Linkedin, Mail, MapPin, Phone, Github } from "lucide-react";
-
 export const ContactSection = () => {
   return (
     <section id="contact" className="contact-enhanced py-28 px-4 relative">
@@ -7,28 +6,25 @@ export const ContactSection = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
           Get In <span className="text-primary"> Touch</span>
         </h2>
-
         <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto leading-relaxed">
           Have a project in mind or want to collaborate? Feel free to reach out.
           I'm always open to discussing new opportunities.
         </p>
-
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="space-y-8">
             <h3 className="text-2xl font-semibold mb-8">
               Contact Information
             </h3>
-
             <div className="space-y-6">
               <div className="contact-item flex items-start gap-6 p-6 rounded-xl">
                 <div className="contact-icon p-4 rounded-full">
                   <Mail className="h-6 w-6 text-primary" />
                 </div>
-                <div>
+                <div className="min-w-0 flex-1">
                   <h4 className="font-medium text-lg mb-1">Email</h4>
                   <a
                     href="mailto:mohsinjawad592@gmail.com"
-                    className="text-muted-foreground hover:text-primary transition-colors"
+                    className="text-muted-foreground hover:text-primary transition-colors break-all sm:break-normal"
                   >
                     mohsinjawad592@gmail.com
                   </a>
@@ -61,7 +57,6 @@ export const ContactSection = () => {
               </div>
             </div>
           </div>
-
           <div className="flex flex-col items-center justify-center">
             <div className="w-full max-w-md">
               <h3 className="text-2xl font-semibold mb-8 text-center">
