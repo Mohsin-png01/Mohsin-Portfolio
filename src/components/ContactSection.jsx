@@ -16,11 +16,11 @@ export const ContactSection = () => {
               Contact Information
             </h3>
             <div className="space-y-6">
-              <div className="contact-item flex items-start gap-6 p-6 rounded-xl">
-                <div className="contact-icon p-4 rounded-full">
-                  <Mail className="h-6 w-6 text-primary" />
+              <div className="contact-item flex items-start gap-4 md:gap-6 p-6 rounded-xl">
+                <div className="contact-icon p-3 md:p-4 rounded-full">
+                  <Mail className="h-5 w-5 md:h-6 md:w-6 text-primary" />
                 </div>
-                <div className="min-w-0 flex-1">
+                <div className="min-w-0 flex-1 text-center">
                   <h4 className="font-medium text-lg mb-1">Email</h4>
                   <a
                     href="mailto:mohsinjawad592@gmail.com"
@@ -30,11 +30,11 @@ export const ContactSection = () => {
                   </a>
                 </div>
               </div>
-              <div className="contact-item flex items-start gap-6 p-6 rounded-xl">
-                <div className="contact-icon p-4 rounded-full">
-                  <Phone className="h-6 w-6 text-primary" />
+              <div className="contact-item flex items-start gap-4 md:gap-6 p-6 rounded-xl">
+                <div className="contact-icon p-3 md:p-4 rounded-full">
+                  <Phone className="h-5 w-5 md:h-6 md:w-6 text-primary" />
                 </div>
-                <div>
+                <div className="text-center flex-1">
                   <h4 className="font-medium text-lg mb-1">Phone</h4>
                   <a
                     href="tel:+923314728568"
@@ -44,11 +44,11 @@ export const ContactSection = () => {
                   </a>
                 </div>
               </div>
-              <div className="contact-item flex items-start gap-6 p-6 rounded-xl">
-                <div className="contact-icon p-4 rounded-full">
-                  <MapPin className="h-6 w-6 text-primary" />
+              <div className="contact-item flex items-start gap-4 md:gap-6 p-6 rounded-xl">
+                <div className="contact-icon p-3 md:p-4 rounded-full">
+                  <MapPin className="h-5 w-5 md:h-6 md:w-6 text-primary" />
                 </div>
-                <div>
+                <div className="text-center flex-1">
                   <h4 className="font-medium text-lg mb-1">Location</h4>
                   <span className="text-muted-foreground hover:text-primary transition-colors">
                     Lahore, Pakistan
